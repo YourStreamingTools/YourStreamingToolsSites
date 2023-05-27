@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <title>AKAuntyKai Links</title>
   <meta name="description" content="Find us online!">
-  <meta name="author" content="Seth Cottle">
+  <meta name="author" content="AKAuntyKair">
   
   <!-- Mobile Specific Metas -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
