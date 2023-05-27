@@ -12,18 +12,18 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 
     // Get user information from the database
     $user_id = $_SESSION['user_id'];
-    $sql = "SELECT username, signup_date, last_login, api_key, profile_image FROM users WHERE id = ?";
+    $sql = "SELECT username, signup_date, last_login, api_key FROM users WHERE id = ?";
     if($stmt = $conn->prepare($sql)){
         $stmt->bind_param("i", $user_id);
         if($stmt->execute()){
             $stmt->store_result();
             if($stmt->num_rows == 1){
-                $stmt->bind_result($username, $signup_date, $last_login, $api_key, $twitch_profile_image_url);
+                $stmt->bind_result($username, $signup_date, $last_login, $api_key);
                 $stmt->fetch();
+                $_SESSION['username'] = $username;
                 $_SESSION['signup_date'] = $signup_date;
                 $_SESSION['last_login'] = $last_login;
                 $_SESSION['api_key'] = $api_key;
-                $_SESSION['profile_image'] = $twitch_profile_image_url;
             } else {
                 echo "Oops! Something went wrong. Please try again later.";
                 exit;
