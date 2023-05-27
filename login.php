@@ -72,7 +72,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                                     $_SESSION["last_login"] = $last_login;
 
                                     // Redirect user to dashboard page
-                                    header("location: dashboard.php");
+                                    header("location: profile.php");
                                 } else{
                                     echo "Oops! Something went wrong. Please try again later.";
                                 }
