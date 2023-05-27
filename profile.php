@@ -76,7 +76,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
 </nav>
 <div class="col-md-6">
     <h1>Your Profile</h1>
-    <img src="<?php echo $twitch_profile_image_url; ?>" width="150px" height="150px" alt="Twitch Profile Image for <?php echo $_SESSION['username']; ?>">
     <br><br>
     <p><strong>Username:</strong> <?php echo $_SESSION['username']; ?></p>
     <p><strong>Joined:</strong> <?php echo date('F j, Y', strtotime($_SESSION['signup_date'])); ?> (AET)</p>
@@ -85,9 +84,6 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <button type="button" class="btn btn-primary" id="show-api-key">Show API Key</button>
     <button type="button" class="btn btn-primary" id="hide-api-key" style="display:none;">Hide API Key</button>
     <br><br>
-    <button class="btn btn-primary" onclick="showOBSInfo()">HOW TO PUT ON YOUR STREAM</button>
-    <br><br>
-    <?php if ($_SESSION['is_admin']) { ?><a href="change_password.php" class="btn btn-primary">Change Password</a><?php } ?>
     <a href="logout.php" class="btn btn-primary">Logout</a>
 </div>
 </body>
