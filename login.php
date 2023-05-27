@@ -133,7 +133,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
                 <li class="active"><a href="login.php">Login</a></li>
                 <li><a href="register.php">Sign Up</a></li>
             </ul>
-            <p class="navbar-text navbar-right">&copy; <?php echo date("Y"); ?> YourListOnline. All rights reserved.</p>
+            <p class="navbar-text navbar-right">&copy; <?php echo date("Y"); ?> YourStreamingTools. All rights reserved.</p>
         </div>
     </nav>
     <div class="col-md-6">
@@ -152,7 +152,7 @@ if($_SERVER["REQUEST_METHOD"] == "POST"){
             </div>
             <div class="form-group">
                 <input type="submit" class="btn btn-primary" value="Login">
-                <a href="index.php" class="btn btn-link">Back to Home</a>
+                <a href="https://yourstreaming.tools/" class="btn btn-link">Back to Home</a>
             </div>
             <p>Don't have an account? <a href="register.php">Sign up now</a>.</p>
         </form>
