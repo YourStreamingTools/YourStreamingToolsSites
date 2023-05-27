@@ -8,7 +8,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     exit;
 } else {
     // Require database connection
-    require_once "db_connect.php";
+    require_once "db-connect.php";
 
     // Get user information from the database
     $user_id = $_SESSION['user_id'];
