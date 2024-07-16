@@ -38,7 +38,10 @@ addEventListener('fetch', event => {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/1.0.0/css/bulma.min.css">
     <link rel="icon" type="image/png" href="https://cdn.yourstreamingtools.com/img/logo.ico">
-    <style>body { background-color: #14161A; color: #ffffff; } .hero { background-color: #14161A; }</style>
+    <style>
+      body { background-color: #14161A; color: #ffffff; }
+      .hero { background-color: #14161A; }
+    </style>
   </head>
   <body>
     <section class="hero is-fullheight">
