@@ -136,7 +136,7 @@ function getGFAUnDeadHtml() {
 
 function getAKAuntyKaiHtml() {
   const baseUrl = 'https://cdn.yourstreamingtools.com'
-  const logoUrl = `${baseUrl}/img/logo.ico?width=128&quality=80`
+  const logoUrl = `${baseUrl}/img/logo.png?width=128&quality=80`
   const youtubeIcon = `${baseUrl}/sites/icons/youtube.png?width=24&quality=80`
   const discordIcon = `${baseUrl}/sites/icons/discord.png?width=24&quality=80`
   const twitchIcon = `${baseUrl}/sites/icons/twitch.png?width=24&quality=80`
@@ -160,7 +160,7 @@ function getAKAuntyKaiHtml() {
   <div class="container">
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <img src="${logoUrl}" srcset="${logoUrl} 4x" alt="GFA Logo">
+        <!--<img src="${logoUrl}" srcset="${logoUrl} 2x" alt="AKAuntyKai Logo">-->
         <h1>AKAuntyKai</h1>
         <p></p>
         <a class="button button-yt" href="https://www.youtube.com/@AKauntykai" target="_blank" rel="noopener"><img class="icon" src="${youtubeIcon}" alt="YouTube Logo">YouTube</a><br>
