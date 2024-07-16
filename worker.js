@@ -87,7 +87,7 @@ function getGFAUnDeadHtml() {
   <div class="container">
     <div class="row">
       <div class="column" style="margin-top: 10%">
-        <img src="https://cdn.yourstreamingtools.com/img/logo.ico" srcset="https://cdn.yourstreamingtools.com/img/logo.ico 2x" alt="GFA Logo">
+        <img src="https://cdn.yourstreamingtools.com/sites/images/gfaUnDead.png" srcset="https://cdn.yourstreamingtools.com/sites/images/gfaUnDead.png 2x" alt="gfaUnDead Logo">
         <h1>GFAUnDead</h1>
         <p></p>
         <a class="button button-github" href="https://github.com/GFAUnDead" target="_blank" rel="noopener"><img class="icon" src="https://cdn.yourstreamingtools.com/sites/icons/github.svg" alt="GitHub Logo">GitHub</a><br>
