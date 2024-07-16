@@ -71,21 +71,21 @@ function getDefaultWelcomeHtml() {
 function getGFAUnDeadHtml() {
   const baseUrl = 'https://cdn.yourstreamingtools.com'
   const logoUrl = `${baseUrl}/sites/images/gfaUnDead.png?width=128&quality=80`
-  const githubIcon = `${baseUrl}/sites/icons/github.svg?width=24&quality=80`
-  const twitterIcon = `${baseUrl}/sites/icons/twitter.svg?width=24&quality=80`
-  const instagramIcon = `${baseUrl}/sites/icons/instagram.svg?width=24&quality=80`
-  const facebookIcon = `${baseUrl}/sites/icons/facebook.svg?width=24&quality=80`
-  const youtubeIcon = `${baseUrl}/sites/icons/youtube.svg?width=24&quality=80`
-  const discordIcon = `${baseUrl}/sites/icons/discord.svg?width=24&quality=80`
-  const twitchIcon = `${baseUrl}/sites/icons/twitch.svg?width=24&quality=80`
-  const spotifyIcon = `${baseUrl}/sites/icons/spotify.svg?width=24&quality=80`
-  const redditIcon = `${baseUrl}/sites/icons/reddit.svg?width=24&quality=80`
-  const tiktokIcon = `${baseUrl}/sites/icons/tiktok.svg?width=24&quality=80`
-  const emailIcon = `${baseUrl}/sites/icons/email.svg?width=24&quality=80`
-  const soundcloudIcon = `${baseUrl}/sites/icons/soundcloud.svg?width=24&quality=80`
-  const steamIcon = `${baseUrl}/sites/icons/steam.svg?width=24&quality=80`
-  const paypalIcon = `${baseUrl}/sites/icons/paypal.svg?width=24&quality=80`
-  const patreonIcon = `${baseUrl}/sites/icons/patreon.svg?width=24&quality=80`
+  const githubIcon = `${baseUrl}/sites/icons/github.png?width=24&quality=80`
+  const twitterIcon = `${baseUrl}/sites/icons/twitter.png?width=24&quality=80`
+  const instagramIcon = `${baseUrl}/sites/icons/instagram.png?width=24&quality=80`
+  const facebookIcon = `${baseUrl}/sites/icons/facebook.png?width=24&quality=80`
+  const youtubeIcon = `${baseUrl}/sites/icons/youtube.png?width=24&quality=80`
+  const discordIcon = `${baseUrl}/sites/icons/discord.png?width=24&quality=80`
+  const twitchIcon = `${baseUrl}/sites/icons/twitch.png?width=24&quality=80`
+  const spotifyIcon = `${baseUrl}/sites/icons/spotify.png?width=24&quality=80`
+  const redditIcon = `${baseUrl}/sites/icons/reddit.png?width=24&quality=80`
+  const tiktokIcon = `${baseUrl}/sites/icons/tiktok.png?width=24&quality=80`
+  const emailIcon = `${baseUrl}/sites/icons/email.png?width=24&quality=80`
+  const soundcloudIcon = `${baseUrl}/sites/icons/soundcloud.png?width=24&quality=80`
+  const steamIcon = `${baseUrl}/sites/icons/steam.png?width=24&quality=80`
+  const paypalIcon = `${baseUrl}/sites/icons/paypal.png?width=24&quality=80`
+  const patreonIcon = `${baseUrl}/sites/icons/patreon.png?width=24&quality=80`
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -137,10 +137,10 @@ function getGFAUnDeadHtml() {
 function getAKAuntyKaiHtml() {
   const baseUrl = 'https://cdn.yourstreamingtools.com'
   const logoUrl = `${baseUrl}/img/logo.ico?width=128&quality=80`
-  const youtubeIcon = `${baseUrl}/sites/icons/youtube.svg?width=24&quality=80`
-  const discordIcon = `${baseUrl}/sites/icons/discord.svg?width=24&quality=80`
-  const twitchIcon = `${baseUrl}/sites/icons/twitch.svg?width=24&quality=80`
-  const tiktokIcon = `${baseUrl}/sites/icons/tiktok.svg?width=24&quality=80`
+  const youtubeIcon = `${baseUrl}/sites/icons/youtube.png?width=24&quality=80`
+  const discordIcon = `${baseUrl}/sites/icons/discord.png?width=24&quality=80`
+  const twitchIcon = `${baseUrl}/sites/icons/twitch.png?width=24&quality=80`
+  const tiktokIcon = `${baseUrl}/sites/icons/tiktok.png?width=24&quality=80`
 
   return `<!DOCTYPE html>
 <html lang="en">
@@ -180,17 +180,17 @@ function getGamingForAustraliaHtml() {
   const baseUrl = 'https://cdn.yourstreamingtools.com'
   const logoUrl = `${baseUrl}/sites/images/gfa-avatar.png?width=128&quality=80`
   const logo2xUrl = `${baseUrl}/sites/images/gfa-logo.png?width=256&quality=80`
-  const twitterIcon = `${baseUrl}/sites/icons/twitter.svg?width=24&quality=80`
-  const instagramIcon = `${baseUrl}/sites/icons/instagram.svg?width=24&quality=80`
-  const facebookIcon = `${baseUrl}/sites/icons/facebook.svg?width=24&quality=80`
-  const youtubeIcon = `${baseUrl}/sites/icons/youtube.svg?width=24&quality=80`
-  const discordIcon = `${baseUrl}/sites/icons/discord.svg?width=24&quality=80`
-  const twitchIcon = `${baseUrl}/sites/icons/twitch.svg?width=24&quality=80`
-  const emailIcon = `${baseUrl}/sites/icons/email.svg?width=24&quality=80`
-  const emailAltIcon = `${baseUrl}/sites/icons/email_alt.svg?width=24&quality=80`
-  const soundcloudIcon = `${baseUrl}/sites/icons/soundcloud.svg?width=24&quality=80`
-  const tumblrIcon = `${baseUrl}/sites/icons/tumblr.svg?width=24&quality=80`
-  const steamIcon = `${baseUrl}/sites/icons/steam.svg?width=24&quality=80`
+  const twitterIcon = `${baseUrl}/sites/icons/twitter.png?width=24&quality=80`
+  const instagramIcon = `${baseUrl}/sites/icons/instagram.png?width=24&quality=80`
+  const facebookIcon = `${baseUrl}/sites/icons/facebook.png?width=24&quality=80`
+  const youtubeIcon = `${baseUrl}/sites/icons/youtube.png?width=24&quality=80`
+  const discordIcon = `${baseUrl}/sites/icons/discord.png?width=24&quality=80`
+  const twitchIcon = `${baseUrl}/sites/icons/twitch.png?width=24&quality=80`
+  const emailIcon = `${baseUrl}/sites/icons/email.png?width=24&quality=80`
+  const emailAltIcon = `${baseUrl}/sites/icons/email_alt.png?width=24&quality=80`
+  const soundcloudIcon = `${baseUrl}/sites/icons/soundcloud.png?width=24&quality=80`
+  const tumblrIcon = `${baseUrl}/sites/icons/tumblr.png?width=24&quality=80`
+  const steamIcon = `${baseUrl}/sites/icons/steam.png?width=24&quality=80`
 
   return `<!DOCTYPE html>
 <html lang="en">
